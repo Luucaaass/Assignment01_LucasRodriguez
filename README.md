@@ -30,3 +30,18 @@ Assignment01_LucasRodriguez_Materials/
 ├── run_benchmarks.py           # Benchmark harness and validation runner
 ├── analyze_results.py          # Summary statistics (median, IQR) and plot generator
 └── README.md                   # Build and execution guide
+```
+## 3. Reproduction Instructions
+
+- **Step 1:** Generate identical binary input matrices (seed=42) and reference products
+```bash
+py src/generate_inputs.py
+```
+- **Step 2:** Compile source codes, perform correctness checks, and run 5 measured repetitions per size
+```bash
+py run_benchmarks.py
+```
+- **Step 3:** Compute median and IQR statistics and generate visual plots
+```bash
+py analyze_results.py
+```
