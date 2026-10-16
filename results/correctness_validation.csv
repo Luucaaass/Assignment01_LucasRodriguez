@@ -1,0 +1,4 @@
+language,identity_ok,identity_max_err,zero_ok,zero_max_err,random64_ok,random64_max_err
+C,True,0.000e+00,True,0.000e+00,True,0.000e+00
+Java,True,0.000e+00,True,0.000e+00,True,0.000e+00
+Python,True,0.000e+00,True,0.000e+00,True,0.000e+00
