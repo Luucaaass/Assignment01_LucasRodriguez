@@ -1,0 +1,16 @@
+# Compiled binaries and bytecode
+bin/
+*.exe
+*.o
+*.class
+
+# Deterministic binary input matrices (regenerated via src/generate_inputs.py)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Operating system artifacts
+Thumbs.db
+.DS_Store
